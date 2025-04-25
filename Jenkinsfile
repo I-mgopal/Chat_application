@@ -25,7 +25,7 @@ pipeline {
                 bat '''
                 docker stop chatbot_container || exit 0
                 docker rm chatbot_container || exit 0
-                docker run -d --name chatbot_container -p 3000:3000 %IMAGE_NAME%:%IMAGE_TAG%
+                docker run -d --name chatbot_container -p 8081:80 %IMAGE_NAME%:%IMAGE_TAG%
                 '''
             }
         }
