@@ -9,8 +9,8 @@ pipeline {
     stages {
         stage('Pull from GitHub') {
             steps {
-                // Replace with your repo URL if different
-                git 'https://github.com/I-mgopal/Chat_application.git'
+                git branch: 'main', 
+                url: 'https://github.com/I-mgopal/Chat_application.git',
             }
         }
         stage('Build Docker Image') {
