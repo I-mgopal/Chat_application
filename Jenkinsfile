@@ -10,7 +10,7 @@ pipeline {
         stage('Pull from GitHub') {
             steps {
                 git branch: 'main', 
-                url: 'https://github.com/I-mgopal/Chat_application.git',
+                url: 'https://github.com/I-mgopal/Chat_application.git'
             }
         }
         stage('Build Docker Image') {
