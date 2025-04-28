@@ -95,7 +95,7 @@ const App = () => {
 
                 <div className="card rounded-lg cursor-pointer transition-all hover:bg-[#201f1f] px-[20px] relative min-h-[20vh] bg-[#181818] p-[10px]">
                   <p className='text-[18px]'>How we can use <br />
-                    the AI for adopt ?</p>
+                    the AI for adopt new technology?</p>
 
                   <i className=' absolute right-3 bottom-3 text-[18px]'><TbMessageChatbot /></i>
                 </div>
