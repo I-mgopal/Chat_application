@@ -111,7 +111,7 @@ const App = () => {
               message == "" ? "" : <i className='text-green-500 text-[20px] mr-5 cursor-pointer' onClick={hitRequest}><IoSend /></i>
             }
           </div>
-          <p className='text-[gray] text-[14px] my-4'>AssistMe is developed by Gopal Mondal. this AI use the gemini API for giving the response  </p>
+          <p className='text-[gray] text-[14px] my-4'>AssistMe is developed by Gopal Mondal. this AI use the Gemini API for giving the response.</p>
         </div>
       </div>
     </>
